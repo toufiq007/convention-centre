@@ -6,6 +6,10 @@
 
 
 @media (max-width:576px){
+  .carousel-inner .carousel-item img{
+    height: 400px;
+    object-fit: cover;
+  }
   .carousel-inner .carousel-item .carousel-caption{
     bottom: 0!important;
   }
@@ -16,7 +20,7 @@
     font-size: 1rem !important;
   }
   .carousel-inner .carousel-item .carousel-caption button{
-    font-size: 13px;
+    font-size: 13px !important;
   }
   .carousel-indicators{
     margin-bottom: 0!important;
