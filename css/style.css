@@ -1,0 +1,24 @@
+.navbar{
+  background: #fff !important;
+  color: #000 !important;
+}
+
+
+
+@media (max-width:576px){
+  .carousel-inner .carousel-item .carousel-caption{
+    bottom: 0!important;
+  }
+  .carousel-inner .carousel-item .carousel-caption h2{
+    font-size: 2rem !important;
+  }
+  .carousel-inner .carousel-item .carousel-caption p{
+    font-size: 1rem !important;
+  }
+  .carousel-inner .carousel-item .carousel-caption button{
+    font-size: 13px;
+  }
+  .carousel-indicators{
+    margin-bottom: 0!important;
+  }
+}
