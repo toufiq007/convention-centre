@@ -6,6 +6,11 @@
 .album-section .col-md-6 .btn{
   width: 35% !important;
 }
+.price-section i{
+  background: #ededed !important;
+  padding: 0.3rem ;
+  border-radius: 5px;
+}
 
 
 @media (max-width:576px){
