@@ -1,36 +1,50 @@
-.navbar{
-  background: #fff !important;
-  color: #000 !important;
+.navbar {
+    background: #fff !important;
+    color: #000 !important;
 }
 
-.album-section .col-md-6 .btn{
-  width: 35% !important;
+.album-section .col-md-6 .btn {
+    width: 35% !important;
 }
-.price-section i{
-  background: #ededed !important;
-  padding: 0.3rem ;
-  border-radius: 5px;
+.price-section i {
+    background: #ededed !important;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+.our-price-cart {
+    min-height: 300px !important;
+    border-radius: 3rem;
+}
+.active-price {
+    transform: translateY(-50px) !important;
+}
+.active-price span {
+    left: 270px !important;
+    /* bottom: 0; */
+}
+.price-section .our-price-cart .btn {
+    background: #ededed !important;
+    font-weight: bold;
 }
 
-
-@media (max-width:576px){
-  .carousel-inner .carousel-item img{
-    height: 400px;
-    object-fit: cover;
-  }
-  .carousel-inner .carousel-item .carousel-caption{
-    bottom: 0!important;
-  }
-  .carousel-inner .carousel-item .carousel-caption h2{
-    font-size: 2rem !important;
-  }
-  .carousel-inner .carousel-item .carousel-caption p{
-    font-size: 1rem !important;
-  }
-  .carousel-inner .carousel-item .carousel-caption button{
-    font-size: 13px !important;
-  }
-  .carousel-indicators{
-    margin-bottom: 0!important;
-  }
+@media (max-width: 576px) {
+    .carousel-inner .carousel-item img {
+        height: 400px;
+        object-fit: cover;
+    }
+    .carousel-inner .carousel-item .carousel-caption {
+        bottom: 0 !important;
+    }
+    .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: 2rem !important;
+    }
+    .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 1rem !important;
+    }
+    .carousel-inner .carousel-item .carousel-caption button {
+        font-size: 13px !important;
+    }
+    .carousel-indicators {
+        margin-bottom: 0 !important;
+    }
 }
