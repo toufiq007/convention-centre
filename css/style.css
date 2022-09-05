@@ -26,6 +26,11 @@
     background: #ededed !important;
     font-weight: bold;
 }
+footer img{
+  /* width: 100px !important;
+  height: 100px !important;
+  object-fit: cover !important; */
+}
 
 @media (max-width: 576px) {
     .carousel-inner .carousel-item img {
