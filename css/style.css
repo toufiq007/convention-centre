@@ -13,14 +13,12 @@
 }
 .our-price-cart {
     min-height: 300px !important;
-    border-radius: 3rem;
 }
 .active-price {
     transform: translateY(-50px) !important;
 }
 .active-price span {
     left: 270px !important;
-    /* bottom: 0; */
 }
 .price-section .our-price-cart .btn {
     background: #ededed !important;
@@ -53,4 +51,8 @@
     .footer-container{
       flex-direction: column !important;
     }
+    .active-price span {
+      left: 41px !important;
+    top: -9px;
+  }
 }
