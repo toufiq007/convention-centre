@@ -26,11 +26,6 @@
     background: #ededed !important;
     font-weight: bold;
 }
-footer img{
-  /* width: 100px !important;
-  height: 100px !important;
-  object-fit: cover !important; */
-}
 
 @media (max-width: 576px) {
     .carousel-inner .carousel-item img {
@@ -51,5 +46,11 @@ footer img{
     }
     .carousel-indicators {
         margin-bottom: 0 !important;
+    }
+    .active-price {
+        transform: translateY(0) !important;
+    }
+    .footer-container{
+      flex-direction: column !important;
     }
 }
